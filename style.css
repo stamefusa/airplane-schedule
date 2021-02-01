@@ -1,0 +1,86 @@
+body {
+    background-color: #003399;
+    color: #ffffff;
+}
+
+.head_img {
+    float: left;
+    height: 80px;
+    padding-right: 10px;
+}
+
+.head1 {
+    font-size: 32px;
+    margin-bottom: 1px;
+}
+
+.head2 {
+    font-size: 18px;
+    margin-top: 1px;
+}
+
+table {
+    border-collapse: collapse;
+    color: #ffffff;
+    width: 100%;
+}
+
+table img {
+    width: 80px;
+    height: 25px;
+}
+
+/* テーブルのメイン部分 */
+table td {
+    background-color: #003399;
+    border: solid 0px black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* 偶数行の背景色設定 */
+table tr:nth-child(odd) td {
+    background-color: #0066ff;
+}
+
+/* 1列目 定刻 */
+table td:nth-child(1) {
+    width: 5%;
+}
+/* 2列目 変更 */
+table td:nth-child(2) {
+    color: #66ccff;
+    width: 5%;
+
+}
+/* 3列目 出発地 */
+table td:nth-child(3) {
+    width: 32%;
+}
+/* 4列目 航空会社 */
+table td:nth-child(4) {
+    width: 10%;
+}
+/* 5列目 便名 */
+table td:nth-child(5) {
+    width: 10%;
+}
+/* 6列目 共同運航便 */
+table td:nth-child(6) {
+    width: 10%;
+}
+/* 7列目 ターミナル */
+table td:nth-child(7) {
+    width: 10%;
+}
+/* 8列目 運行状況 */
+table td:nth-child(8) {
+    width: 18%;
+}
+
+/* テーブルの見出し行 */
+thead {
+    background-color: #000066;
+    text-align: left;
+    font-size: 12px;   
+}
